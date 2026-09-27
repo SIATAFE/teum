@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>틈 개인정보처리방침</title>
+<style>
+  :root{--ink:#1f3330;--muted:#6e7a70;--pine:#1f4a3d;--canvas:#f7f6f0;--line:#e0e3d9}
+  body{margin:0;background:var(--canvas);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+  main{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+  h1{font-size:26px;margin:0 0 4px;color:var(--pine)}
+  .sub{color:var(--muted);margin:0 0 28px}
+  h2{font-size:17px;margin:28px 0 8px}
+  ul{margin:0;padding-left:20px}
+  a{color:var(--pine)}
+  footer{color:var(--muted);font-size:13px;margin-top:32px;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head>
+<body>
+<main>
+  <h1>틈(TEUM) 개인정보처리방침</h1>
+  <p class="sub">시행일: 2026년 9월 28일</p>
+
+  <p>틈은 개인용 영어 학습 앱입니다. 앱을 만든 사람은 사용자의 정보를 수집하거나 따로 보관하는 서버를 운영하지 않습니다.</p>
+
+  <h2>1. 앱이 다루는 정보</h2>
+  <ul>
+    <li><strong>학습 기록</strong>: 카드 평가, 오답노트, 내가 추가한 단어, 필기, 읽던 위치. 기기 안과 사용자의 iCloud(Apple의 개인 저장소)에만 저장됩니다.</li>
+    <li><strong>구글 계정(연동을 켠 경우에만)</strong>: 연결한 계정의 이메일 주소(설정 화면에 어떤 계정이 연결됐는지 보여 주는 용도)와,
+      앱이 사용자의 구글 드라이브에 만든 ‘틈 오답노트’ 시트 파일.</li>
+  </ul>
+
+  <h2>2. 구글 사용자 데이터를 쓰는 방법</h2>
+  <ul>
+    <li>앱은 <code>drive.file</code> 권한만 사용합니다. 즉 앱이 직접 만든 시트 파일에만 접근하고, 드라이브의 다른 파일은 보거나 바꿀 수 없습니다.</li>
+    <li>그 시트에 오답노트(단어·뜻·예문·보기)를 쓰고, 사용자가 시트에서 고른 평가와 답을 읽어 앱의 학습 기록에 합칩니다.</li>
+    <li>구글에서 받은 정보는 이 목적 말고는 쓰지 않으며, 누구에게도 팔거나 넘기지 않고, 광고에 쓰지 않습니다.</li>
+    <li>로그인 권한(토큰)은 사용자의 기기 키체인에만 저장되고 다른 곳으로 보내지 않습니다.</li>
+    <li>틈이 구글 API에서 받은 정보를 쓰고 다른 앱으로 옮기는 방식은
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>(제한적 사용 요건 포함)을 따릅니다.</li>
+  </ul>
+
+  <h2>3. 보관과 삭제</h2>
+  <ul>
+    <li>시트는 사용자의 구글 드라이브에 있으므로 사용자가 언제든 지울 수 있습니다.</li>
+    <li>앱 설정의 ‘구글 연결 끊기’를 누르면 기기에서 로그인 권한을 지우고 구글에 권한 취소를 요청합니다.
+      <a href="https://myaccount.google.com/permissions">구글 계정 → 서드파티 앱 액세스</a>에서도 직접 끊을 수 있습니다.</li>
+    <li>학습 기록은 앱을 지우거나 iCloud 설정에서 지울 수 있습니다.</li>
+  </ul>
+
+  <h2>4. 문의</h2>
+  <p><a href="https://github.com/SIATAFE/teum/issues">GitHub 저장소 Issues</a>에 남겨 주세요.</p>
+
+  <footer><a href="index.html">틈 · TEUM 홈</a></footer>
+</main>
+</body>
+</html>
